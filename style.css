@@ -9,7 +9,7 @@ ul {
 li{
   display: inline;
   margin: 2px;
-  padding: 5px;
+  padding: 5 8 4 8;
   font-size: 13px;
   text-decoration: none;
 
@@ -18,7 +18,7 @@ li{
 a{
   font-family: arial, sans-serif;
   cursor: auto;
-  opacity: 0.70;
+  opacity: 0.80;
   color: #000;
 }
 a:hover{
@@ -26,5 +26,10 @@ a:hover{
   color: #000;
 }
 ul li img{
+  border-radius: 200px;
+}
+#bell{
+  padding: 5px;
+  border: 1px solid #000;
   border-radius: 200px;
 }
