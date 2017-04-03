@@ -12,8 +12,18 @@ li{
   padding: 5px;
   font-size: 13px;
   text-decoration: none;
-  color: #000;
+
   font-family: arial, sans-serif;
+}
+a{
+  font-family: arial, sans-serif;
+  cursor: auto;
+  opacity: 0.70;
+  color: #000;
+}
+a:hover{
+  opacity: 1;
+  color: #000;
 }
 ul li img{
   border-radius: 200px;
