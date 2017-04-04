@@ -62,7 +62,7 @@ ul li img{
   cursor: auto;
   border: none;
   margin: 0;
-  width: 75%;
+  width: 65%;
   outline: none;
   line-height: 20px;
   font: arial, sans-serif;
@@ -128,4 +128,17 @@ button{
   padding: 5px;
   background-color: #f5f5f5;
   font-family: Helvetica, sans-serif;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  background-color: rgba(204, 204, 204, 0.43);;
+  width: 100%;
+  vertical-align: middle;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
 }
