@@ -1,3 +1,6 @@
+body{
+  width: 100%;
+}
 ul {
   list-style-type: none;
   margin: 10 20 2 10;
@@ -18,7 +21,7 @@ li{
 a{
   font-family: arial, sans-serif;
   cursor: auto;
-  opacity: 0.80;
+  opacity: 0.70;
   color: #000;
 }
 a:hover{
@@ -28,8 +31,78 @@ a:hover{
 ul li img{
   border-radius: 200px;
 }
+#center_logo{
+  display: block;
+  height: 400px;
+  padding-top: 300px;
+}
 #bell{
   padding: 5px;
   border: 1px solid #000;
   border-radius: 200px;
+}
+#google_logo{
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+  display: block;
+  margin: auto;
+
+}
+.div-input{
+  border: 1px solid black;
+  margin: auto;
+  width: 30%;
+  display: block;
+
+}
+.input-search{
+  cursor: auto;
+  border: none;
+  margin: 0;
+  width: 75%;
+  outline: none;
+}
+#keyboard{
+  display: inline-block;
+  width: 50px;
+  cursor: pointer;
+}
+img#microfon{
+  width: 45px;
+  cursor: pointer;
+  display: inline-block;
+}
+[aria-label] {
+position: relative;
+}
+[aria-label]:after {
+content: attr(aria-label);
+display: none;
+position: absolute;
+top: 110%;
+left: 10px;
+z-index: 5000;
+pointer-events: none;
+padding: 8px 10px;
+line-height: 15px;
+white-space: nowrap;
+text-decoration: none;
+text-indent: 0;
+overflow: visible;
+font-size: .9em;
+font-weight: normal;
+color: #fff;
+background-color: #000;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-webkit-box-shadow: 1px 2px 6px rgba(0,0,0,0.3);
+box-shadow: 1px 2px 6px rgba(0,0,0,0.3);
+}
+a:focus {
+  outline:1px dashed #E92C6C;
+}
+
+[aria-label]:hover:after, [aria-label]:focus:after {
+display: block;
 }
